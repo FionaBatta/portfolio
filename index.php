@@ -1,3 +1,3 @@
-<?php include_once("./src/App.js"); 
-        echo 'working'; 
+<?php include_once("./public/index.html"); 
+        //echo 'working'; 
 ?>
