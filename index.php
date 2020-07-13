@@ -1,1 +1,1 @@
-<?php include_once("client/public/index.html") ?>
+<?php echo 'mon site!'; ?>
