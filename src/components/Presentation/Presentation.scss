@@ -1,0 +1,27 @@
+$pink : rgb(219, 108, 154);
+$pinkgray : rgb(168, 118, 130);
+
+.div_pres {
+    //background-color: blue;
+    margin: auto;
+}
+
+.card_pres-all {
+    width: 15rem;
+    min-height: 210px;
+    margin-bottom: 30px;
+}
+
+.card_pres-title {
+    color: $pink;
+    text-align: center;
+    font-family: 'Caveat Brush', cursive;
+    font-size: 44px !important;
+    margin-bottom: 50px;
+}
+
+.card_pres-text {
+    font-size: 23px;
+    text-align: center;
+    color: $pinkgray;
+}

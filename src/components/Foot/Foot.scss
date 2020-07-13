@@ -1,0 +1,74 @@
+$purple : #636ab7;
+$pink : #e777bc;
+$pink_scroll : #ca3d94;
+$back : rgb(240, 224, 224);
+
+/*PC*/
+
+@media screen and (min-width: 1380px) {
+
+    .div_foot {
+        background-color: $pink;
+        //background-image: linear-gradient($purple, $pink);
+        height: 90px;
+        //border-top: 3px solid $pink;
+    }
+
+}
+
+/*MOYEN*/
+
+@media screen and (max-width: 1380px) {
+
+    .div_foot {
+        background-color: $pink;
+        //background-image: linear-gradient($purple, $pink);
+        height: 90px;
+        //border-top: 3px solid $pink;
+    }
+
+}
+
+/*PORTABLE*/
+
+@media screen and (max-width: 750px) {
+
+    .div_foot {
+        background-color: $pink;
+        //background-image: linear-gradient($purple, $pink);
+        height: 150px;
+        //border-top: 3px solid $pink;
+    }
+    
+
+}
+
+.foot_langue {
+    color: $back;
+    //background-color: red;
+    margin-top: 30px;
+}
+
+.foot_copy {
+    color: $back;
+    //background-color: blue;
+}
+
+.foot-linked {
+    max-width: 100px;
+}
+
+.foot_link {
+    color: $purple;
+    float: right;
+    margin-top: 30px;
+    //background-color: green;
+}
+
+.top-scroll {
+    color: $pink_scroll;
+    font-size: 50px;
+    font-weight: bold;
+    text-shadow: 2px 0 0 rgb(255, 209, 247), -2px 0 0 rgb(255, 209, 247), 0 2px 0 rgb(255, 209, 247), 0 -2px 0 rgb(255, 209, 247), 1px 1px rgb(255, 209, 247), -1px -1px 0 rgb(255, 209, 247), 1px -1px 0 rgb(255, 209, 247), -1px 1px 0 rgb(255, 209, 247);
+    //background-color: green;
+}

@@ -1,0 +1,136 @@
+$blue : #92c9d2;
+$white : rgb(255, 255, 255);
+$white_blue : #e3fdff;;
+
+.div_cara-centre {
+    margin-top: 20px;
+    background-image: url('fond.png');
+    margin-top: 50px;
+    height: 600px;
+    width: 100%;
+    background-position: center center;
+    background-size: cover;
+}
+
+.h2_cara {
+    color: $white_blue;
+    text-align: center;
+    font-family: 'Caveat Brush', cursive;
+    font-size: 70px;
+    margin-bottom: 50px;
+    margin-top: 200px;
+}
+
+/*PC*/
+
+@media screen and (min-width: 1380px) {
+    .div_cara {
+        width: 47%;
+        margin-right: 3px;
+    }
+
+    .div_centre {
+        width: 47%;
+        margin-left: 2px;
+    }
+
+    .h2_centre {
+        color: $white_blue;
+        text-align: center;
+        font-family: 'Caveat Brush', cursive;
+        font-size: 70px;
+        margin-bottom: 50px;
+        margin-top: 200px;
+    }
+}
+
+/*MOYEN*/
+
+@media screen and (max-width: 1380px) {
+    .div_cara {
+        width: 100%;
+        margin-right: 3px;
+    }
+
+    .div_centre {
+        width: 100%;
+        margin-left: 2px;
+    }
+
+    .h2_centre {
+        color: $white_blue;
+        text-align: center;
+        font-family: 'Caveat Brush', cursive;
+        font-size: 70px;
+        margin-bottom: 50px;
+        margin-top: 20px;
+    }
+}
+
+/*PORTABLE*/
+
+@media screen and (max-width: 750px) {
+
+    .div_cara {
+        width: 100%;
+        margin-right: 3px;
+    }
+
+    .div_centre {
+        width: 100%;
+        margin-left: 2px;
+    }
+
+    .h2_centre {
+        color: $white_blue;
+        text-align: center;
+        font-family: 'Caveat Brush', cursive;
+        font-size: 70px;
+        margin-bottom: 50px;
+        margin-top: 20px;
+    }
+
+}
+
+.card .card_cara-all {
+    background-color: #92b0d2;
+}
+
+.card_centre-all {
+    background-color: #92b0d2;
+}
+
+.card_cara {
+    width: 80%;
+    border: 2px solid $white_blue;
+    box-shadow: -6px 6px $white_blue;
+    text-align: center;
+    margin: auto;
+}
+
+.card_cara-title {
+    color: $white;
+}
+
+.card_cara-subtitle {
+    color: $white;
+}
+
+.card_centre {
+    width: 80%;
+    border: 2px solid $white_blue;
+    box-shadow: -6px 6px $white_blue;
+    //background-color: $blue;
+    text-align: center;
+    margin: auto;
+    padding-top: 45px !important;
+    min-height: 260px !important;
+}
+
+.card_centre-title {
+    color: $white;
+}
+
+.card_centre-subtitle {
+    color: $white;
+}

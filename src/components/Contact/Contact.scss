@@ -1,0 +1,175 @@
+$purple : rgb(215, 191, 226);
+$label_purple : rgb(231, 200, 243);
+$back_white : rgb(239, 225, 248);
+$white: rgb(255, 255, 255);
+$dark_purple : rgb(122, 68, 122);
+$pink : #e777bc;
+$light_pink : rgb(240, 224, 224);
+
+/*PC*/
+
+@media screen and (min-width: 1380px) {
+    .div_contact-coord {
+        background-image: url('back_cont.png');
+        height: 680px;
+        width: 100%;
+        background-position: center center;
+        background-size: cover;
+    }
+
+    .div_contact {
+        width: 60%;
+    }
+
+    .div_coord {
+        width: 40%;
+    }
+}
+
+/*MOYEN*/
+
+@media screen and (max-width: 1380px) {
+
+    .div_contact-coord {
+        background-image: url('back_cont.png');
+        height: 780px;
+        width: 100%;
+        background-position: center center;
+        background-size: cover;
+    }
+
+    .div_contact {
+        width: 60%;
+    }
+
+    .div_coord {
+        width: 40%;
+    }
+}
+
+/*PORTABLE*/
+
+@media screen and (max-width: 750px) {
+    .div_contact-coord {
+        background-image: url('back_cont.png');
+        height: 1350px;
+        width: 100%;
+        background-position: center center;
+        background-size: cover;
+    }
+
+    .div_contact {
+        width: 100%;
+        margin: auto;
+        //background-color: blue;
+    }
+
+    .div_coord {
+        width: 100%;
+    }
+}
+
+.h2_contact {
+    color: $purple;
+    text-align: center;
+    font-family: 'Caveat Brush', cursive;
+    font-size: 70px;
+    margin-bottom: 50px;
+    margin-top: 50px;
+}
+
+.label {
+    color: $label_purple;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.btn-submit {
+    flex: 1 1 auto;
+    padding: 13px;
+    text-align: center;
+    transition: 0.5s;
+    background-size: 200% auto;
+    box-shadow: 0 0 5px $purple;
+    border-radius: 10px;
+    color: $dark_purple;
+    border: 1px solid $dark_purple;
+    background-image: linear-gradient(to right, $purple 0%, $pink 51%, $purple 100%);
+}
+
+.btn-submit:hover {
+    background-position: right center; 
+}
+
+.btn-submit:active {
+    color: $white;
+    border: 1px solid $pink;
+}
+
+.h2_coord {
+    color: $purple;
+    text-align: center;
+    font-family: 'Caveat Brush', cursive;
+    font-size: 70px;
+    margin-bottom: 50px;
+    margin-top: 50px;
+}
+
+.card_coord {
+    width: 65%;
+    margin: auto;
+    border: 1px solid $purple;
+    box-shadow: 6px 6px $purple;
+    background-color: $back_white;
+    margin-bottom: 18px;
+}
+
+.card_coord-phone {
+    max-width: 30px;
+    float: left;
+}
+
+.card_coord-phonesub {
+    margin-bottom: 50px;
+    margin-left: 40px;
+    font-size: 19px;
+    color: $dark_purple;
+}
+
+
+.card_coord-mail {
+    max-width: 30px;
+    float: left;
+}
+
+.card_coord-mailsub {
+    margin-left: 40px;
+    font-size: 19px;
+    color: $dark_purple;
+}
+
+.card_cv {
+    text-align: center;
+}
+
+.card_cv-img {
+    max-width: 150px;
+}
+
+.card_cv-title {
+    color: $back_white;
+}
+
+.card_cv-lien {
+    color: $back_white;
+    font-size: 22px;
+}
+
+.card_cv-lien:hover {
+    color: $label_purple;
+    text-decoration: none;
+}
+
+.card_cv-subtitle {
+    color: $back_white;
+}

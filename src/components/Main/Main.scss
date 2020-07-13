@@ -1,0 +1,151 @@
+// VARIABLES //
+$pink : rgb(255, 185, 185);
+$beige : rgb(255, 252, 221);
+$blue : rgb(206, 206, 241);
+
+.div_main {
+    background-image: url('back.png');
+    //background-color: red;
+    height: 600px;
+    width: 100%;
+    background-position: center center;
+    //background-repeat: no-repeat;
+    //background-attachment: fixed;
+    background-size: cover;
+}
+
+/*PC*/
+
+@media screen and (min-width: 1380px) {
+
+    .h1_nom, .h1_prenom {
+        color: $beige;
+        font-family: 'Caveat Brush', cursive;
+        font-size: 580%;
+        margin-top: 120px;
+        //margin-left: -400px;
+        display: inline-block;
+        //background-color: blue;
+    }
+
+    .h1_nom-prenom {
+        //background-color: gray;
+        width: 38%;
+        display: inline-block;
+        text-align: left;
+        float: right;
+    }
+
+    .h1_prenom {
+        //margin-left: 400px;
+    }
+
+    .h1_nom {
+        margin-right : 30px;
+    }
+
+    .menu {
+        //background-color: green;
+        color: white;
+        font-family: 'Caveat Brush', cursive;
+        font-size: 28px;
+        width: 62%;
+        display: inline-block;
+        padding-top: 80px;
+        padding-left: 116px;
+        //float: left;
+        //display: none;
+    }
+
+    .menu-ul {
+        //background-color: blue;
+        list-style:none;
+    }
+
+    .menu-li {
+        //background-color: pink;
+        margin-bottom: 8px;
+    }
+
+}
+
+/*MOYEN*/
+
+@media screen and (max-width: 1380px) {
+
+    .h1_nom, .h1_prenom {
+        color: $beige;
+        font-family: 'Caveat Brush', cursive;
+        font-size: 300%;
+        margin-top: 120px;
+        //margin-left: -400px;
+        display: inline-block;
+        //background-color: blue;
+    }
+
+    .h1_nom-prenom {
+        //background-color: gray;
+        width: 38%;
+        display: inline-block;
+        text-align: left;
+        float: right;
+    }
+
+    .h1_prenom {
+        //margin-left: 400px;
+    }
+
+    .h1_nom {
+        margin-right : 30px;
+    }
+
+    .menu {
+        //background-color: green;
+        color: white;
+        font-family: 'Caveat Brush', cursive;
+        font-size: 26px;
+        width: 62%;
+        display: inline-block;
+        padding-top: 80px;
+        //padding-left: 116px;
+        //float: left;
+        //display: none;
+    }
+
+    .menu-ul {
+        //background-color: blue;
+        list-style:none;
+    }
+
+    .menu-li {
+        //background-color: pink;
+        margin-bottom: 8px;
+    }
+
+}
+
+/*PORTABLE*/
+
+@media screen and (max-width: 750px) {
+
+    .h1_nom, .h1_prenom {
+        color: $beige;
+        font-family: 'Caveat Brush', cursive;
+        font-size: 300%;
+        margin-top: 120px;
+        //margin-left: -400px;
+        display: inline-block;
+        //background-color: blue;
+        //display: none;
+    }
+
+    .h1_nom-prenom {
+        width: 100%;
+        text-align: center;
+    }
+
+    .menu {
+        display: none;
+    }
+
+}

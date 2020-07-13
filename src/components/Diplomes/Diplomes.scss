@@ -1,0 +1,85 @@
+$orange : rgb(228, 125, 125);
+$dark_orange : rgb(126, 72, 50);
+$gray_orange : rgb(109, 94, 88);
+$date_orange : rgb(180, 148, 135);
+
+.h2_diplomes {
+    color: $orange;
+    text-align: center;
+    font-family: 'Caveat Brush', cursive;
+    font-size: 70px;
+    margin-bottom: 50px;
+}
+
+/*PC*/
+
+@media screen and (min-width: 1380px) {
+
+    .card_diplomes-all {
+        width: 15.5rem;
+        min-height: 210px;
+        margin-bottom: 30px;
+    }
+
+    .card .card_diplomes {
+        border: 1px solid $orange;
+        box-shadow: 6px 6px $orange;
+        margin-bottom: 8px;
+    }
+
+}
+
+/*MOYEN*/
+
+@media screen and (max-width: 1380px) {
+
+    .card_diplomes-all {
+        width: 15.5rem;
+        min-height: 210px;
+        margin-bottom: 30px;
+    }
+
+    .card .card_diplomes {
+        border: 1px solid $orange;
+        box-shadow: 6px 6px $orange;
+        margin-bottom: 8px;
+    }   
+
+}
+
+/*PORTABLE*/
+
+@media screen and (max-width: 750px) {
+
+    .card_diplomes-all {
+        width: 14.5rem;
+        min-height: 270px;
+        margin-bottom: 30px;
+    }
+
+    .card .card_diplomes {
+        border: 1px solid $orange;
+        box-shadow: 6px 6px $orange;
+        margin-bottom: 8px;
+        //display: none;
+    }
+
+}
+
+.card.card-body { 
+    border:none; 
+}
+
+
+
+.card_diplomes-title {
+    color: $dark_orange;
+}
+
+.card_diplomes-subtitle {
+    color: $gray_orange;
+}
+
+.card_diplomes-date {
+    color: $date_orange;
+}

@@ -1,0 +1,76 @@
+$green : rgb(136, 214, 156);
+$dark_green : rgb(58, 122, 74);
+$light_green : rgb(143, 190, 155);
+$gray_green : rgb(84, 104, 89);
+
+.div_exp {
+}
+
+.h2_exp {
+    color: $green;
+    text-align: center;
+    font-family: 'Caveat Brush', cursive;
+    font-size: 70px;
+    margin-bottom: 50px;
+    padding-top: 50px;
+}
+
+/*PC*/
+
+@media screen and (min-width: 1380px) {
+
+    .card_exp {
+        //width: 100%;
+        min-width: 540px;
+        border: 1px solid $green;
+        box-shadow: 6px 6px $green;
+        text-align: center;
+        margin: auto;
+        margin-bottom: 15px
+    }
+
+}
+
+/*MOYEN*/
+
+@media screen and (max-width: 1380px) {
+
+    .card_exp {
+        //width: 100%;
+        min-width: 540px;
+        border: 1px solid $green;
+        box-shadow: 6px 6px $green;
+        text-align: center;
+        margin: auto;
+        margin-bottom: 15px
+    }
+    
+}
+
+/*PORTABLE*/
+
+@media screen and (max-width: 750px) {
+
+    .card_exp {
+        //width: 10%;
+        min-width: 40px;
+        border: 1px solid $green;
+        box-shadow: 6px 6px $green;
+        text-align: center;
+        margin: auto;
+        margin-bottom: 15px
+    }
+
+}
+
+.card_exp-title {
+    color: $dark_green;
+}
+
+.card_exp-subtitle {
+    color: $gray_green;
+}
+
+.card_exp-text {
+    color: $light_green;
+}

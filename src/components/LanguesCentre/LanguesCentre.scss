@@ -1,0 +1,106 @@
+$yellow : rgb(240, 206, 114);
+$dark_yellow : rgb(133, 110, 46);
+$light_yellow : rgb(165, 146, 95);
+
+.div_langues-coord {
+    //background-color: green;
+    margin-top: 20px;
+}
+
+.h2_langues {
+    color: $yellow;
+    text-align: center;
+    font-family: 'Caveat Brush', cursive;
+    font-size: 70px;
+    margin-bottom: 50px;
+
+}
+
+/*PC*/
+
+@media screen and (min-width: 1380px) {
+
+    .div_comp {
+        width: 60%;
+        //background-color: red;
+    }
+
+    .div_langues {
+        //background-color: blue;
+        width: 40%;
+    }
+
+}
+
+/*MOYEN*/
+
+@media screen and (max-width: 1380px) {
+
+    .div_comp {
+        width: 100%;
+        //background-color: red;
+    }
+
+    .div_langues {
+        //background-color: blue;
+        width: 100%;
+    }
+
+}
+
+/*PORTABLE*/
+
+@media screen and (max-width: 750px) {
+
+    .div_comp {
+        width: 100%;
+        //background-color: red;
+    }
+
+    .div_langues {
+        //background-color: blue;
+        width: 100%;
+    }
+
+}
+
+.card_langue {
+    width: 80%;
+    border: 1px solid $yellow;
+    box-shadow: -6px 6px $yellow;
+    text-align: center;
+    margin: auto;
+    padding-bottom: 32px !important;
+}
+
+.card_langue-title {
+    color: $dark_yellow;
+}
+
+.card_langue-subtitle {
+    color: $light_yellow;
+}
+
+.h2_comp {
+    color: $yellow;
+    text-align: center;
+    font-family: 'Caveat Brush', cursive;
+    font-size: 70px;
+    margin-bottom: 50px;
+}
+
+.card_comp {
+    width: 80%;
+    border: 1px solid $yellow;
+    box-shadow: -6px 6px $yellow;
+    text-align: center;
+    margin: auto;
+}
+
+.card_comp-title {
+    color: $dark_yellow;
+}
+
+.card_comp-subtitle {
+    color: $light_yellow;
+}

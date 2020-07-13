@@ -1,0 +1,94 @@
+$blue : #92b0d2;
+$light_blue : #e3e7ff;
+$dark_blue : #5c5da1;
+$darkest_blue : #655caf;
+$kinda_purple : #9787d4;
+$lightest_blue : #8297c5;
+
+.div_projets {
+    background-color: $blue;
+    //background-color: green;
+    padding-bottom: 50px;
+}
+
+/*PC*/
+
+@media screen and (min-width: 1380px) {
+
+    .h2_projets {
+        color: $light_blue;
+        text-align: center;
+        font-family: 'Caveat Brush', cursive;
+        font-size: 70px;
+    }
+
+    .card_projets-title {
+        color: $dark_blue;
+        padding-top: 10px;
+    }
+
+}
+
+/*MOYEN*/
+
+@media screen and (max-width: 1380px) {
+
+    .h2_projets {
+        color: $light_blue;
+        text-align: center;
+        font-family: 'Caveat Brush', cursive;
+        font-size: 70px;
+        margin-top: 450px;
+    }
+
+    .card_projets-title {
+        color: $dark_blue;
+        padding-top: 10px;
+    }
+
+}
+
+/*PORTABLE*/
+
+@media screen and (max-width: 750px) {
+
+    .h2_projets {
+        color: $light_blue;
+        text-align: center;
+        font-family: 'Caveat Brush', cursive;
+        font-size: 70px;
+        margin-top: 500px;
+    }
+
+    .card_projets-title {
+        color: $dark_blue;
+        padding-top: 10px;
+        min-height: 70px;
+    }
+
+
+}
+
+.h3_projets {
+    color: $dark_blue;
+    text-align: center;
+    //font-family: 'Caveat Brush', cursive;
+    margin-bottom: 50px;
+}
+
+.card_projets {
+    background-color: $light_blue;
+}
+
+.card_projets-subtitle {
+    color: $darkest_blue;
+}
+
+.card_projets-langue {
+    color: $kinda_purple;
+}
+
+.card_projets-date {
+    color: $lightest_blue;
+    float: right;
+}
