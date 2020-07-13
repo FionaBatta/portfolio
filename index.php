@@ -1,0 +1,1 @@
+<?php include_once("client/public/index.html") ?>
