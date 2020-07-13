@@ -1,6 +1,6 @@
 import React from 'react';
 import logo from './logo.svg';
-import './App.css';
+import './portfolio/App.css';
 import Main from './components/Main/Main';
 import Presentation from './components/Presentation/Presentation';
 import Experience from './components/Experience/Experience';
