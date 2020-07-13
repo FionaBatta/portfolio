@@ -30,7 +30,7 @@ class Main extends React.Component {
             <Col>
                 <Card className="card_pres-all border-0">
                     <Card.Title className="card_pres-title">Domaine</Card.Title>
-                    <Card.Text className="card_pres-text">Developpement Front-End</Card.Text>
+                    <Card.Text className="card_pres-text">Front-End</Card.Text>
                 </Card>
             </Col>
             <Col>

@@ -21,7 +21,7 @@ class Main extends React.Component {
                     <Card.Body className="card_diplomes">
                         <Card.Title className="card_diplomes-title font-weight-bold">Développeur web</Card.Title>
                         <Card.Subtitle className="card_diplomes-subtitle">Samsung Campus, Saint-Ouen</Card.Subtitle>
-                        <Card.Text className="card_diplomes-date">Depuis Octobre 2019</Card.Text>
+                        <Card.Text className="card_diplomes-date">De Octobre 2019 à Novembre 2021</Card.Text>
                     </Card.Body>
                 </Card>
             </Col>
