@@ -16,13 +16,27 @@ class Contact extends React.Component {
   constructor(props) {
     super(props);
     this.state = {
-      showModal: false
+      showModal: false,
+      showMed: false,
+      show4: false
     };
   }
 
   setModalState(showModal) {
     this.setState({
       showModal: showModal
+    });
+  }
+
+  setMedState(showMed) {
+    this.setState({
+      showMed: showMed
+    });
+  }
+
+  set4State(show4) {
+    this.setState({
+      show4: show4
     });
   }
 
@@ -41,9 +55,9 @@ class Contact extends React.Component {
                 <Col>
                 <Card className="border-0 rounded">
                     <Card.Body className="card_projets rounded">
-                        <Card.Img src={Med} onClick={ this.setModalState.bind(this, true) } />
-                          <ReactModal isOpen={ this.state.showModal }>
-                            <img src={ Med } onClick={ this.setModalState.bind(this, false) } />
+                        <Card.Img src={Med} onClick={ this.setMedState.bind(this, true) } />
+                          <ReactModal isOpen={ this.state.showMed }>
+                            <img src={ Med } onClick={ this.setMedState.bind(this, false) } />
                           </ReactModal>
                         <Card.Title className="card_projets-title font-weight-bold">D.Y.Med</Card.Title>
                         <Card.Subtitle className="card_projets-subtitle">Site de e-commerce.</Card.Subtitle>
@@ -55,9 +69,9 @@ class Contact extends React.Component {
                 <Col>
                 <Card className="border-0 rounded">
                     <Card.Body className="card_projets rounded">
-                        <Card.Img src={Puissance} onClick={ this.setModalState.bind(this, true) } />
-                          <ReactModal isOpen={ this.state.showModal }>
-                            <img src={ Puissance } onClick={ this.setModalState.bind(this, false) } />
+                        <Card.Img src={Puissance} onClick={ this.set4State.bind(this, true) } />
+                          <ReactModal isOpen={ this.state.show4 }>
+                            <img src={ Puissance } onClick={ this.set4State.bind(this, false) } />
                           </ReactModal>
                         <Card.Title className="card_projets-title font-weight-bold">Puissance 4</Card.Title>
                         <Card.Subtitle className="card_projets-subtitle">Jeu de Puissance 4.</Card.Subtitle>

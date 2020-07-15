@@ -35,7 +35,7 @@ class Main extends React.Component {
             </Col>
             <Col>
                 <Card className="card_pres-all border-0">
-                    <Card.Title className="card_pres-title">Languages</Card.Title>
+                    <Card.Title className="card_pres-title">Langages</Card.Title>
                     <Card.Text className="card_pres-text">ReactJS</Card.Text>
                     <Card.Text className="card_pres-text">Javascript</Card.Text>
                     <Card.Text className="card_pres-text">PHP</Card.Text>
