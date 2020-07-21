@@ -16,7 +16,7 @@ class Main extends React.Component {
             <Row>
             <Fade cascade>
             <div className="div_cara">
-                <h2 className="h2_cara">Caractère</h2>
+                <h2 className="h2_cara">Personnalité</h2>
                 <Card className="border-0 bg-transparent card_cara-all">
                     <Card.Body className="card_cara">
                         <Card.Title className="card_cara-title font-weight-bold">Organisée</Card.Title>
@@ -33,9 +33,9 @@ class Main extends React.Component {
                 <Card className="border-0 bg-transparent card_centre-all">
                     <Card.Body className="card_centre">
                         <Card.Title className="card_centre-title font-weight-bold">Art et Dessin</Card.Title>
-                        <Card.Subtitle className="card_centre-subtitle">En tant que passe-temps.</Card.Subtitle>
+                        <Card.Subtitle className="card_centre-subtitle">Loisirs</Card.Subtitle>
                         <Card.Title className="card_centre-title font-weight-bold">Linguistique</Card.Title>
-                        <Card.Subtitle className="card_centre-subtitle">Cours suivis à l'université.</Card.Subtitle>
+                        <Card.Subtitle className="card_centre-subtitle">Formation universitaire</Card.Subtitle>
                         <Card.Title className="card_centre-title font-weight-bold">Jeux Vidéos</Card.Title>
                         <Card.Subtitle className="card_centre-subtitle">Réflexion, RPG, Plateforme...</Card.Subtitle>
                     </Card.Body>

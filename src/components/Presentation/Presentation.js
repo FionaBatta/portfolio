@@ -23,21 +23,21 @@ class Main extends React.Component {
             </Col>
             <Col>
                 <Card className="card_pres-all border-0">
-                    <Card.Title className="card_pres-title">Status</Card.Title>
-                    <Card.Text className="card_pres-text">Recherche un contrat de profesionnalisation</Card.Text>
+                    <Card.Title className="card_pres-title">En Cours</Card.Title>
+                    <Card.Text className="card_pres-text">Recherche un contrat d'apprentissage ou de professionnalisation</Card.Text>
                 </Card>
             </Col>
             <Col>
                 <Card className="card_pres-all border-0">
-                    <Card.Title className="card_pres-title">Domaine</Card.Title>
+                    <Card.Title className="card_pres-title">Spécialité</Card.Title>
                     <Card.Text className="card_pres-text">Front-End</Card.Text>
                 </Card>
             </Col>
             <Col>
                 <Card className="card_pres-all border-0">
                     <Card.Title className="card_pres-title">Langages</Card.Title>
-                    <Card.Text className="card_pres-text">ReactJS</Card.Text>
                     <Card.Text className="card_pres-text">Javascript</Card.Text>
+                    <Card.Text className="card_pres-text">ReactJS</Card.Text>
                     <Card.Text className="card_pres-text">PHP</Card.Text>
                 </Card>
             </Col>

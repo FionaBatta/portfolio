@@ -30,8 +30,8 @@ class Main extends React.Component {
                 <h2 className="h2_comp">Compétences</h2>
                 <Card className="border-0">
                     <Card.Body className="card_comp">
-                    <Card.Title className="card_comp-title font-weight-bold">SQL, MongoDB</Card.Title>
-                      <Card.Title className="card_comp-title font-weight-bold">ReactJS, Javascript</Card.Title>
+                    <Card.Title className="card_comp-title font-weight-bold">Javascript, ReactJS</Card.Title>
+                      <Card.Title className="card_comp-title font-weight-bold">SQL, MongoDB</Card.Title>
                       <Card.Title className="card_comp-title font-weight-bold">PHP, Symfony, Laravel</Card.Title>
                     </Card.Body>
                 </Card>

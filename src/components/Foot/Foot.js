@@ -18,7 +18,7 @@ class Contact extends React.Component {
             <Row>
                 <Col>
                 <Fade cascade>
-                    <div className="foot_langue">Site réalisé à l'aide de ReactJS.</div>
+                    <div className="foot_langue">Site réalisé avec ReactJS.</div>
                     <div className="foot_copy"></div>
                 </Fade>
                 </Col>

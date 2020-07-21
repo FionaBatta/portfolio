@@ -13,15 +13,15 @@ class Main extends React.Component {
     return (
       <div className="div_exp">
         <Container>
-            <h2 className="h2_exp">Experiences   Professionnelles</h2>
+            <h2 className="h2_exp">Expériences   Professionnelles</h2>
             <Row>
             <Fade cascade>
             <Col>
                 <Card className="border-0">
                     <Card.Body className="card_exp">
                         <Card.Title className="card_exp-title font-weight-bold">Aide aux devoirs</Card.Title>
-                        <Card.Subtitle className="card_exp-subtitle">Accompagner des enfants tout au long de l'année scolaire.</Card.Subtitle>
-                        <Card.Text className="card_exp-text">D'Août 2013 à Août 2019</Card.Text>
+                        <Card.Subtitle className="card_exp-subtitle">Accompagnement d'enfants durant l'annee scolaire.</Card.Subtitle>
+                        <Card.Text className="card_exp-text">2013-2019</Card.Text>
                     </Card.Body>
                 </Card>
             </Col>
@@ -29,7 +29,7 @@ class Main extends React.Component {
                 <Card className="border-0">
                     <Card.Body className="card_exp">
                         <Card.Title className="card_exp-title font-weight-bold">Stage d'observation au Sushi Matsuri</Card.Title>
-                        <Card.Subtitle className="card_exp-subtitle">Servire les clients, aider en cuisine.</Card.Subtitle>
+                        <Card.Subtitle className="card_exp-subtitle">Accueil des clients et service, aide en cuisine.</Card.Subtitle>
                         <Card.Text className="card_exp-text">2011</Card.Text>
                     </Card.Body>
                 </Card>

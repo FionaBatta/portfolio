@@ -32,13 +32,15 @@ class Contact extends React.Component {
                   <Card.Img className="card_coord-phone" src={ Phone } />
                   <Card.Text className="card_coord-phonesub" >06 13 29 59 90</Card.Text>
                   <Card.Img className="card_coord-mail" src={ Mail } />
-                  <Card.Text className="card_coord-mailsub" >batta.fiona@gmail.com</Card.Text>
+                  <Card.Text className="card_coord-mailsub" >fiona.battaglia@epitech.com</Card.Text>
                 </Card.Body>
               </Card>
               <Card className="border-0 bg-transparent">
                 <Card.Body className="card_cv">
-                  <Card.Img className="card_cv-img" src={ CV } />
-                  <Card.Title className="card_cv-title"><a className="card_cv-lien" href={pdf}>Voir mon CV</a></Card.Title>
+                  <a className="card_cv-lien" href={pdf}>
+                    <Card.Img className="card_cv-img" src={ CV } />
+                    <Card.Title className="card_cv-title">Voir mon CV</Card.Title>
+                  </a>
                   <Card.Subtitle className="card_cv-subtitle">(PDF)</Card.Subtitle>
                 </Card.Body>
               </Card>

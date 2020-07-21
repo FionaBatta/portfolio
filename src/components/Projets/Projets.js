@@ -47,7 +47,7 @@ class Contact extends React.Component {
         <Fade cascade>
             <Row>
                 <Col>
-                    <h2 className="h2_projets">Projets au seins du Samsung Campus</h2>
+                    <h2 className="h2_projets">Projets du Samsung Campus</h2>
                     <h3 className="h3_projets">Liste non exhaustive</h3>
                 </Col>
             </Row>
@@ -56,11 +56,8 @@ class Contact extends React.Component {
                 <Card className="border-0 rounded">
                     <Card.Body className="card_projets rounded">
                         <Card.Img src={Med} onClick={ this.setMedState.bind(this, true) } />
-                          <ReactModal isOpen={ this.state.showMed }>
-                            <img src={ Med } onClick={ this.setMedState.bind(this, false) } />
-                          </ReactModal>
                         <Card.Title className="card_projets-title font-weight-bold">D.Y.Med</Card.Title>
-                        <Card.Subtitle className="card_projets-subtitle">Site de e-commerce.</Card.Subtitle>
+                        <Card.Subtitle className="card_projets-subtitle">Site de e-commerce réalisé en équipe</Card.Subtitle>
                         <Card.Text className="card_projets-langue">ReactJS, CSS</Card.Text>
                         <Card.Text className="card_projets-date">06.2020</Card.Text>
                     </Card.Body>
@@ -70,11 +67,8 @@ class Contact extends React.Component {
                 <Card className="border-0 rounded">
                     <Card.Body className="card_projets rounded">
                         <Card.Img src={Puissance} onClick={ this.set4State.bind(this, true) } />
-                          <ReactModal isOpen={ this.state.show4 }>
-                            <img src={ Puissance } onClick={ this.set4State.bind(this, false) } />
-                          </ReactModal>
                         <Card.Title className="card_projets-title font-weight-bold">Puissance 4</Card.Title>
-                        <Card.Subtitle className="card_projets-subtitle">Jeu de Puissance 4.</Card.Subtitle>
+                        <Card.Subtitle className="card_projets-subtitle">Jeu de Puissance 4</Card.Subtitle>
                         <Card.Text className="card_projets-langue">Javascript, JQuery</Card.Text>
                         <Card.Text className="card_projets-date">03.2020</Card.Text>
                     </Card.Body>
@@ -84,11 +78,8 @@ class Contact extends React.Component {
                 <Card className="border-0 rounded">
                     <Card.Body className="card_projets rounded">
                         <Card.Img src={Meetic} onClick={ this.setModalState.bind(this, true) } />
-                          <ReactModal isOpen={ this.state.showModal }>
-                            <img src={ Meetic } onClick={ this.setModalState.bind(this, false) } />
-                          </ReactModal>
                         <Card.Title className="card_projets-title font-weight-bold">My Meetic</Card.Title>
-                        <Card.Subtitle className="card_projets-subtitle">Site de rencontres.</Card.Subtitle>
+                        <Card.Subtitle className="card_projets-subtitle">Site de rencontres</Card.Subtitle>
                         <Card.Text className="card_projets-langue">PHP Natif</Card.Text>
                         <Card.Text className="card_projets-date">02.2020</Card.Text>
                     </Card.Body>

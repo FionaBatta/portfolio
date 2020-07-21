@@ -13,14 +13,14 @@ class Main extends React.Component {
     return (
       <div className="div_diplomes">
         <Container>
-            <h2 className="h2_diplomes">Diplomes et Formations</h2>
+            <h2 className="h2_diplomes">Diplômes et Formation</h2>
             <Row>
             <Fade cascade>
             <Col>
                 <Card className="card_diplomes-all border-0">
                     <Card.Body className="card_diplomes">
                         <Card.Title className="card_diplomes-title font-weight-bold">Développeur web</Card.Title>
-                        <Card.Subtitle className="card_diplomes-subtitle">Samsung Campus, Saint-Ouen</Card.Subtitle>
+                        <Card.Subtitle className="card_diplomes-subtitle">Samsung Campus by Epitech, Saint-Ouen</Card.Subtitle>
                         <Card.Text className="card_diplomes-date">De Octobre 2019 à Novembre 2021</Card.Text>
                     </Card.Body>
                 </Card>
@@ -31,7 +31,7 @@ class Main extends React.Component {
                         <Card.Title className="card_diplomes-title font-weight-bold">LLCER Japonais </Card.Title>
                         <Card.Subtitle className="card_diplomes-subtitle">INALCO, Paris</Card.Subtitle>
                         <Card.Text className="card_diplomes-date">De Août 2014 à Août 2019</Card.Text>
-                        <Card.Text className="card_diplomes-subtitle">Parcours Traitement Numérique Multilingues</Card.Text>
+                        <Card.Text className="card_diplomes-subtitle">Littératures et Civilisations Etrangères et Régionales, parcours Traitement Numérique Multilingues</Card.Text>
                     </Card.Body>
                 </Card>
             </Col>
@@ -42,15 +42,6 @@ class Main extends React.Component {
                         <Card.Subtitle className="card_diplomes-subtitle">Lycée Joliot Curie, Nanterre</Card.Subtitle>
                         <Card.Text className="card_diplomes-date">2014</Card.Text>
                         <Card.Text className="card_diplomes-subtitle">Option Langue Européenne et Littérature Anglaise</Card.Text>
-                    </Card.Body>
-                </Card>
-            </Col>
-            <Col>
-                <Card className="card_diplomes-all border-0">
-                    <Card.Body className="card_diplomes">
-                        <Card.Title className="card_diplomes-title font-weight-bold">Brevet des Collèges</Card.Title>
-                        <Card.Subtitle className="card_diplomes-subtitle">Collège Evariste Galois, Nanterre</Card.Subtitle>
-                        <Card.Text className="card_diplomes-date">2011</Card.Text>
                     </Card.Body>
                 </Card>
             </Col>
