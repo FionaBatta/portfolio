@@ -32,7 +32,7 @@ class Contact extends React.Component {
                   <Card.Img className="card_coord-phone" src={ Phone } />
                   <Card.Text className="card_coord-phonesub" >06 13 29 59 90</Card.Text>
                   <Card.Img className="card_coord-mail" src={ Mail } />
-                  <Card.Text className="card_coord-mailsub" >fiona.battaglia@epitech.com</Card.Text>
+                  <Card.Text className="card_coord-mailsub" >fiona.battaglia@epitech.eu</Card.Text>
                 </Card.Body>
               </Card>
               <Card className="border-0 bg-transparent">
