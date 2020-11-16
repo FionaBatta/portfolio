@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "ae33c51b01dbcc08e6af86fc5d2a500f",
+    "revision": "8f2ee51c759dbe5cac43ba887cff8cd8",
     "url": "/portfolio/index.html"
   },
   {
@@ -8,7 +8,7 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/portfolio/static/css/2.af3c1da9.chunk.css"
   },
   {
-    "revision": "d63f35de85062ee41732",
+    "revision": "572179b85231dac8785b",
     "url": "/portfolio/static/css/main.e49a6b8d.chunk.css"
   },
   {
@@ -20,16 +20,16 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/portfolio/static/js/2.d0b70ff3.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "d63f35de85062ee41732",
-    "url": "/portfolio/static/js/main.38fba518.chunk.js"
+    "revision": "572179b85231dac8785b",
+    "url": "/portfolio/static/js/main.efd07574.chunk.js"
   },
   {
     "revision": "7a6cc99bd8f08f9fa6ec",
     "url": "/portfolio/static/js/runtime-main.209c2d7e.js"
   },
   {
-    "revision": "0a445680aa6e7322109704a18b6e5c6c",
-    "url": "/portfolio/static/media/CV_Battaglia_Fiona.0a445680.pdf"
+    "revision": "d756b4d87fd35513903373553d947ffe",
+    "url": "/portfolio/static/media/CV_Battaglia_Fiona.d756b4d8.pdf"
   },
   {
     "revision": "b28e1b712a4ee50920e114e27ed605ac",
