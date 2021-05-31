@@ -18,7 +18,7 @@ class Main extends React.Component {
                   <h1 className="h1_nom">Fiona </h1>
                   <h1 className="h1_prenom">Battaglia</h1>
                 </div>
-                <div className="h1_sous-titre">Développeuse Web</div>
+                <div className="h1_sous-titre">Designer/Intégratrice Web</div>
               </Fade>
       </div>
     );
